@@ -1,0 +1,91 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #ff6347;
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Recipes Section */
+#recipes {
+    padding: 20px;
+    text-align: center;
+}
+
+.recipe-card {
+    display: inline-block;
+    width: 250px;
+    margin: 15px;
+    padding: 10px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.recipe-card h3 {
+    margin: 10px 0;
+}
+
+/* About Section */
+#about {
+    background: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Contact Section */
+#contact {
+    background: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#contact a {
+    color: #ff6347;
+    text-decoration: none;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
